@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    width: 1200;
+    background-color: rgb(46, 98, 203);
+    margin: 30px;
+}
+.box1{
+    width: 40%;
+    background-color:rgb(19, 45, 98) ;
+    color: aliceblue;
+    text-align: center;
+    padding: 35px 50px;
+   
+}
+.box1> h1{
+    font-size: 100px;
+}
+
+.box1> h2{
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+.box2{
+    background-color: aliceblue;
+    width: 50%;
+    margin: 50px;
+    font-size: 30px;
+    text-align: center;
+    gap: 20px;
+}
+.box2>h1{
+    margin-bottom: 30px;
+}
+
+
+.input > input{
+    width: 70% ;
+    padding: 20px;  
+    margin-bottom: 20px;
+}
+button{
+    width: 70%;
+    padding: 15px ;
+    background-color: rgb(42, 87, 200);
+    color: aliceblue;
+    font-size: 25px;
+}
+.link{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-size: smaller;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    color: blue;
+}
